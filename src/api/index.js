@@ -1,4 +1,4 @@
-const getPost = async() =>{
+export const getPost = async() =>{
     const response = await fetch("https://jsonplaceholder.typicode.com/posts",{
     mehod : 'GET',
    }  
@@ -6,4 +6,10 @@ const getPost = async() =>{
     return await response.json();
 }
 
-export default getPost
+export const getRandomUser = async() =>{
+    const response = await fetch("https://randomuser.me/api/",{
+        mehod : 'GET',
+       }  
+        )
+        return await response.json();
+}
