@@ -1,7 +1,6 @@
 import React from 'react'
 
 function UserController(props) {
-    console.log(props.data)
   return (
     <div>
         <img key={Math.random() * 1000} src= {props.data.picture.large} alt="user" />
