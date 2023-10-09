@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { CounterProvider } from './Controller/ContextApiProvider';
+// import { CartProvide } from './Controller/CartProvide';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
